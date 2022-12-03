@@ -1,3 +1,42 @@
+* {
+	font-family: 'Maven Pro', sans-serif;
+	margin: 0;
+	padding: 0;
+	list-style: none;
+	text-decoration: none;
+	text-align: center;
+  }
+
+.container{
+	display flex;
+	flex-direction: row;
+	justify-content: center;
+	align-items: center;
+	row-gap: 10px;
+	column-gap: 30px;
+ }
+
+
+header {
+	display: flex;
+	justify-content: space-between;
+	background-color: lightgray;
+	margin-bottom: 16px;
+	padding: 16px;
+	
+  }
+
+footer {
+	display: flex;
+	justify-content: space-between;
+	background-color: lightgray;
+	margin-bottom: 16px;
+	padding: 16px;
+	
+  }
+
+  
+
 body {
 
 	background-color: #262626;
@@ -12,6 +51,7 @@ body {
 
 }
 
+
 #corpo {
 
 	background-color: #F9F9F9;
@@ -25,6 +65,7 @@ body {
 	border: 3px solid #CCC;
 
 }
+
 
 h1 {
 
@@ -59,5 +100,34 @@ a {
 }
 
 li {
-    color: green; 
+    color:#FF1B7B;
 }
+
+ul {
+	display: flex;
+	height: 100%;
+	align-items: center;
+	
+  }
+  
+  nav ul li{
+	padding-left: 16px
+  
+  }
+  
+  nav ul li:nth-child(4){
+	padding-right: 16px;
+  
+  }
+
+span{
+	color:blue;
+}
+
+section{
+	line-height: 2;
+}
+
+
+
+
